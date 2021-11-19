@@ -1,0 +1,14 @@
+{
+	"name": "blockchain",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "tsc && node ./build",
+		"dev": "tsc -w"
+	},
+	"devDependencies": {
+		"@types/node": "^16.11.9",
+		"typescript": "^4.5.2"
+	}
+}
